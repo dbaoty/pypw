@@ -6,22 +6,20 @@ import sys
 import pyperclip
 
 # TODO:
-    # read values from command line
     # fix up helper function
-    # autocopy password to clipboard prompt
 
 def printHelp() -> None:
     print('HELP function')
     exit()
 
-def copyToClipboard(pw: str):
+def copyToClipboard(pw: str) -> None:
     if pyperclip:
         pyperclip.copy(pw)
     else:
         print("python module 'pyperclip' could not be found.")
         exit()
 
-def validateArguments(list) -> list:
+def validateArguments(list: list) -> list:
     """
     validateArguments performs length-wise and logic checks on sys.argv arguments.
 
