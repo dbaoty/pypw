@@ -10,7 +10,7 @@
 - ./pypw can be executed with up to 3 command line boolean arguments representing password length, option for capital letters and an option for special characters.
 
 | Order of arguments | Representation | Description |
-| --- | --- |
+| --- | --- | --- |
 | `password length` | non-negative integer | Represents desired length of generated password |
 | 'capitalization' | `boolean values` | Option for the inclusion of capitalization within password |
 | 'special characters' | `boolean values` | Option for the inclusion of special characters (!, @, #, etc.) within password |
