@@ -6,7 +6,7 @@
 - `pip install -r requirements.txt`
 - `[pypw] [password_length] [capitalizations?] [special_characters?]`
 
-# pypw can be executed with up to 3 command line boolean arguments representing password length, an option for capital letters and an option for special characters.
+## pypw can be executed with up to 3 command line boolean arguments representing password length, an option for capital letters and an option for special characters.
 
 | CLI Argument | Representation | Description |
 | --- | --- | --- |
