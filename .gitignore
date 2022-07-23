@@ -1,4 +1,2 @@
-lib64
-share
-lib
-bin
+.gitignore
+env

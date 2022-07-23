@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import random
 import string
@@ -44,7 +44,7 @@ def generatePassword(length: int = 8, capitalization: int = 1, special_chars: in
     :param special_chars: allow special characters in password.
 
     :return: returns a string of specified length and configuration based on value given to the capitalization and special character arguments.
-    """ 
+    """
 
     if capitalization:
         pool = string.ascii_lowercase + string.digits + string.ascii_uppercase
