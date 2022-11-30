@@ -68,9 +68,6 @@ if __name__ == "__main__":
     pw = generatePassword(*l)
     print(pw)
 
-    if 'pyperclip' in sys.modules:
-        conf = input('save new password to clipboard? (y/n): ')
-        if conf.upper() == "Y":
-            copyToClipboard(pw)
-    else:
-        print("python module 'pyperclip' could not be found.")
+    conf = input('save new password to clipboard? (y/n): ')
+    if conf.upper() == "Y":
+        copyToClipboard(pw)
